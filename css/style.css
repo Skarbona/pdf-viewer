@@ -1,0 +1,44 @@
+body {
+    background: #eee;
+}
+
+.canvas-container {
+    max-width:1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-bar {
+    width: calc(100% - 2rem);
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.btn {
+    background: #333;
+    border: 2px solid #fff;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+    color:#fff;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+
+.page-info {
+    margin-left: 1rem;
+}
+
+.canvas {
+    width:100%;
+}
+
+.error {
+    background: #ff0000;
+    color:#fff;
+    padding: 1rem;
+}
